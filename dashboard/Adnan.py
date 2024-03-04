@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 # Membaca data CSV dari GitHub
-alldata_df = pd.read_csv("https://raw.githubusercontent.com/masadnan/submition/main/all_data_ecommerce.csv")
+alldata_df = pd.read_csv("https://raw.githubusercontent.com/masadnan/submition/main/dashboard/all_data_ecommerce.csv")
 
 # Header Streamlit dengan judul menarik
 st.title('🛒 E-Commerce Dashboard 🚀')
